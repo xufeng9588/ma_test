@@ -1,0 +1,46 @@
+{
+    "name": "kLine",
+    "desc": "kLine",
+    "columns": {
+        "time": {
+            "type": "DATE"
+        },
+        "exchange": {
+            "type": [
+                "STRING",
+                10
+            ]
+        },
+        "instrument_ID": {
+            "type": [
+                "STRING",
+                20
+            ],
+            "index":true
+        },
+        "pair": {
+            "type": [
+                "STRING",
+                10
+            ]
+        },
+        "type": {
+            "type": [
+                "STRING",
+                10
+            ]
+        },
+        "open": {
+            "type": "FLOAT"
+        },
+        "high": {
+            "type": "FLOAT"
+        },
+        "low": {
+            "type": "FLOAT"
+        },
+        "close": {
+            "type": "FLOAT"
+        }
+    }
+}
